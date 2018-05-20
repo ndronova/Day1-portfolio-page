@@ -1,0 +1,295 @@
+/* Color scheme:
+#E1F7E7 - background elements
+#A9E8DC - background body
+#02BEC4 - some headers
+#02547D - text of this color or black
+#0284A8 - strong elements
+*/
+
+/* fonts:
+font-family: 'Trirong', serif;
+font-family: 'Rubik', sans-serif; */
+
+/* Overall styles */
+body {
+  background-color:  white  ;
+}
+h1 {
+  font-family: 'Trirong', serif;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Rubik', sans-serif;
+  color: #02547D;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5em;
+}
+
+h4 {
+  font-family: 'Trirong', serif;
+  font-size: 1.2em;
+  color:#02547D;
+  /* font-weight: bolder; */
+}
+
+a {
+  color:#0284A8;
+}
+
+a:hover {
+  font-size: 1.1em;
+  color:#02547D;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Menu styles */
+#menu_text {
+  display: inline-block;
+}
+
+#nav_text {
+  display: inline-block;
+}
+
+header h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #02547D;
+  font-weight: 700;
+}
+
+ul {
+list-style-type: none;
+overflow: hidden;
+float: right;
+
+}
+
+nav li {
+  display: inline-block;
+  border-right: 1px solid #02BEC4;
+  padding: 0px 10px 0px 10px;
+  margin-top: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  color: #02BEC4;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #02547D;
+}
+
+/* Section styles */
+section {
+  margin: 20px 20px 20px 20px;
+  border: 5px transparent #02547D;
+  background-color: #E4E7EB;
+  box-shadow: 0px 0px 5px 2px #02547D;
+}
+
+ #quick_info {
+   width: 35%;
+   display:inline-block;
+   padding: 0;
+ }
+
+ #about_me {
+   width: 55%;
+   display: inline-block;
+ }
+
+
+/* Quick info */
+#quick_info img {
+  width: 100%;
+  height: auto;
+}
+
+#quick_info_text {
+  line-height: 1.5;
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin: 10px 20px 0px 30px;
+}
+
+i {
+  color: #0284A8;
+}
+
+#quick_info_text p {
+  margin: 20px 0px;
+  border-bottom: 1px solid #0284A8;
+}
+
+/* Education styles */
+.uni {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #0284A8;
+}
+
+.uni p {
+  line-height: 1.5;
+  margin: 0;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+/* Skills styles */
+.container .skills{
+  width: 100%;
+  background-color: white;
+  border-radius: 15px 15px 15px 15px ;
+  padding: 0;
+}
+
+.skills_HTML, .skills_CSS, .skills_JS, .skills_MySQL, .skills_sp, .skills_de, .skills_ru, .skills_eng {
+  line-height: 30px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  border-radius: 15px 15px 15px 15px ;
+  text-align: center;
+  color: white;
+}
+
+.skills_HTML {
+  width: 50%;
+  background-color: #02BEC4;
+}
+
+.skills_CSS {
+  width: 40%;
+  background-color: #02BEC4;
+}
+
+.skills_JS {
+  width: 10%;
+  background-color: #02BEC4;
+}
+
+.skills_MySQL {
+  width: 20%;
+  background-color: #02BEC4;
+}
+
+figure h4 {
+  margin-top: 10px;
+}
+
+/* Languages styles */
+
+
+.skills_ru {
+  width: 100%;
+  background-color: #02BEC4;
+}
+
+.skills_eng {
+  width: 85%;
+  background-color: #02BEC4;
+}
+
+.skills_sp {
+  width: 50%;
+  background-color: #02BEC4;
+}
+
+.skills_de {
+  width: 40%;
+  background-color: #02BEC4;
+}
+
+/* Portfolio styles */
+#portfolio {
+  width: 95%;
+}
+
+#portfolio img {
+  width: 80%;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+#portfolio h4 {
+  text-align: center;
+}
+
+.column {
+  text-align: justify;
+}
+
+.opacity_img:hover img{
+  opacity:0.3;
+  transition: 0.5s;
+}
+
+ .middle {
+  position:absolute;
+  top: 30%;
+  left:40%;
+  opacity: 0;
+}
+
+.text {
+  font-family: 'Trirong', serif;
+  font-size: 1.2em;
+  font-weight: bolder;
+  color:#0284A8;
+}
+
+.opacity_img:hover .middle {
+  opacity: 1;
+}
+
+/* Footer styles */
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #02547D;
+}
+footer p {
+  font-family: 'Trirong', serif;
+  font-size: 1.2em;
+  text-align: center;
+}
+.social {
+  margin-left: auto;
+  width: 20%;
+  margin-right: auto;
+  margin-bottom: 30px;
+  overflow: hidden;
+
+
+}
+footer i {
+  padding: 10px 20px 10px 15px;
+  display: inline-block;
+  float:left;
+}
+
+.social a:hover {
+
+  color: white;
+}
